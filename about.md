@@ -6,7 +6,7 @@ tags: [about]
 ---
 
 ##Work
-I am currently a physics graduate student at Princeton University, working under Iain Couzin on problems related to collective behavior.  Our work incorporates tools and ideas from a variety of diverse fields---applied mathmatics, machine learning, computer vision, behavioral economics, psychology, network theory, statistical physics, computational neuroscience, ecology, and animal behavior.  It is an incredible place to work with lots really smart (and fun) people.  To learn more about the lab and our work visit the [Couzin Lab website](http://icouzin.princeton.edu).
+I am currently a physics graduate student at Princeton University, working under Iain Couzin on problems related to collective behavior.  Our work incorporates tools and ideas from a variety of diverse fields---applied mathematics, machine learning, computer vision, behavioral economics, psychology, network theory, statistical physics, computational neuroscience, ecology, and animal behavior.  It is an incredible place to work with lots really smart (and fun) people.  To learn more about the lab and our work visit the [Couzin Lab website](http://icouzin.princeton.edu).
 
 Upon graduating I will be the founding science teacher at [Blackstone Valley Prep](http://www.bvprep.blogspot.com/) (BVP) in Rhode Island:
 
@@ -21,5 +21,5 @@ I grew up on Cape Cod and love the ocean in any month, at any temperature.  No .
 Most importantly, I am married to smart, beautiful, amazing woman who plans her fall Saturdays around Notre Dame football games.
 
 
-### Website Acknowledgements
+### Website Acknowledgments
 This is built on the [Poole](https://github.com/poole) a minimal theme by [@mdo](https://twitter.com/mdo). [Jaan Alostaar](https://jaan.io/) was also a great deal of help.
