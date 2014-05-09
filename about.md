@@ -1,30 +1,25 @@
 ---
 layout: page
-title: About
+title: About Me
+description: Ecologist, Physicist, and Teacher
+tags: [about]
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+##Work
+I am currently a physics graduate student at Princeton University, working under Iain Couzin on problems related to collective behavior.  Our work incorporates tools and ideas from a variety of diverse fields---applied mathmatics, machine learning, computer vision, behavioral economics, psychology, network theory, statistical physics, computational neuroscience, ecology, and animal behavior.  It is an incredible place to work with lots really smart (and fun) people.  To learn more about the lab and our work visit the [Couzin Lab website](http://icouzin.princeton.edu).
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Upon graduating I will be the founding science teacher at [Blackstone Valley Prep](http://www.bvprep.blogspot.com/) (BVP) in Rhode Island:
 
-There are currently two themes built on Poole:
+* To become an excellent teacher
+* To transform science education into something much more integrated and empirical
+* To train a new generation that is more quantitative and scientifically literate than my own 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+##Life
+I grew up on Cape Cod and love the ocean in any month, at any temperature.  No ... the beach does not disappear in January and yes ... it does snow on the beach.  I have three younger siblings and we grew up playing sports and board games.  If you invent a game that involves strategy, efficient use of resources, or two teams and chasing some sort of ball, disc, puck, etc., I will play.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+##Balance
+Most importantly, I am married to smart, beautiful, amazing woman who plans her fall Saturdays around Notre Dame football games.
 
-## Setup
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+### Website Acknowledgements
+This is built on the [Poole](https://github.com/poole) a minimal theme by [@mdo](https://twitter.com/mdo). [Jaan Alostaar](https://jaan.io/) was also a great deal of help.

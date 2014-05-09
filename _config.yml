@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-description:      Base theme for Jekyll themes by @mdo.
+title:            PYW-WYP
+tagline:          Science and Education
+description:      Personal webpage of Andrew Hartnett.
 url:              http://capecodcid.github.io
 
 pages_list:       
@@ -39,4 +39,4 @@ paginate:         1
 version:          1.0.0
 
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/capecodcid/capecodcid.io
