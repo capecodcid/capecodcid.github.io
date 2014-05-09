@@ -16,10 +16,14 @@ pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
 
-link_list:
-  About: '/about'
-  Archive: '/archive'
-  
+link:
+  - title: About
+    url: /about
+  - title: Archive
+	url: /archive
+  - title: Couzin Lab
+    url: http://icouzin.princeton.edu/
+    external: true
 
 
 author:
