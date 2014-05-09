@@ -90,6 +90,7 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+  font-family: "Loved by the King", "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
