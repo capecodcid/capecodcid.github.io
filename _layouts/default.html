@@ -11,7 +11,7 @@
           <a href="/" title="Home">{{ site.title }}</a>
             {% for link in site.links %}
               &nbsp;&nbsp;&nbsp;
-              <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+              <small><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></small>
             {% endfor %}
           <!-- <small>{{ site.tagline }}</small> -->
         </h3>
