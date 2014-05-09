@@ -16,9 +16,18 @@ pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
 
+link_list:
+  About: '/about'
+  Archive: '/archive'
+  
+
+
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
+  name:           Andrew Hartnett
+  bio:            "Scientist & Educator"
+  email:          a.t.hartnett@gmail.com
+  twitter:        hartnett_andrew        
+  github:         capecodcid     
 
 paginate:         1
 
