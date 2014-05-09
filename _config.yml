@@ -20,7 +20,7 @@ links:
   - title: About
     url: /about
   - title: Archive
-	url: /archive
+    url: /archive
   - title: Couzin Lab
     url: http://icouzin.princeton.edu/
     external: true
