@@ -19,6 +19,8 @@ pages_list:
 links:
   - title: About
     url: /about
+  - title: Contact
+    url: /contact
   - title: Archive
     url: /archive
   - title: Couzin Lab
