@@ -26,23 +26,23 @@ $$
 
 Boom!  I am not sure why things are orange, but at least everything is typesetting correctly.  So what did I have to do to get this to work?  There are two parts.  First, you need to tell your webpage where to find MathJax.  Second, you need to make sure that your markdown parser recognizes that something is LaTeX.  So here was my procedure:
 
-1. I added the following line of code to `head.html` in my `_includes` folder.  It could equivalently go in `default.html`.  It just needs to be somewhere it will get run.  This simply instructs the browser to go grab the latest MathJax javascript.
+* I added the following line of code to `head.html` in my `_includes` folder.  It could equivalently go in `default.html`.  It just needs to be somewhere it will get run.  This simply instructs the browser to go grab the latest MathJax javascript.
 
-	{% highlight html %}
-	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	{% endhighlight %}
+{% highlight html %}
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endhighlight %}
 
-2. I changed the markdown parser to `kramdown` which recognizes anything between two sets of `$$` as a LaTeX equation and not regular markdown.  To do this I first had to install kramdown,
+* I changed the markdown parser to `kramdown` which recognizes anything between two sets of `$$` as a LaTeX equation and not regular markdown.  To do this I first had to install kramdown,
 
-	{% highlight ruby %}
-	gem install kramdown
-	{% endhighlight %}
+{% highlight ruby %}
+gem install kramdown
+{% endhighlight %}
 
-	and then I added the following line to my `_config.yml` file.
+and then I added the following line to my `_config.yml` file.
 
-	{% highlight Text only %}
-	markdown:         kramdown
-	{% endhighlight %}
+{% highlight Text only %}
+markdown:         kramdown
+{% endhighlight %}
 
 Voila!  It works.  It even supports inline equations like $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$.  Not just need to figure out how to change the coloring.
 
