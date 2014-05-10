@@ -1,9 +1,31 @@
 ---
 layout: post
-title: LaTeX and Jekyll
+title: LaTeX in your Browser
 description: Ecologist, Physicist, and Teacher
-tags: [jekyll, latex, website]
+tags: [latex, education, tools]
 ---
+
+I have been an assistant instructor for many different courses during my studies at Princeton.  There was one course, however, that really taught me a great deal about how to teach.  ISC (integrated science) is _hard_, really really hard.  I was an AI for the lab portion of the class and I was astounded with what the professors expected of their freshman.  Not only did they have to be proficient with a wide range of experimental equipment---spanning physics, chemistry, and biology---they had to be able to do quantitative data analysis in MATLAB, and write journal style reports.  More importantly, **the students delivered**.
+
+
+
+
+<!--ShareLa Tex writeLatex authorea
+
+
+I am going to try out all three.
+
+
+I am currently using shareLatex and so far I am very impressed.  They make it very easy to choose between different templates.
+
+Also the compilation errors are very informative and show exactly where they occur in the code.  Errors are much better explained than in TeXShop.
+
+Also cut and paste from my own code rendered very well.   
+
+
+
+
+
 
 This is my first website and as a result I am learning something new with every post.  I am using Jekyll, a static site generator build on ruby, for two reasons.
 
@@ -44,7 +66,7 @@ and then I added the following line to my `_config.yml` file.
 markdown:         kramdown
 {% endhighlight %}
 
-Voila!  It works.  It even supports inline equations like $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$.  Now I just need to figure out how to change the coloring.
+Voila!  It works.  It even supports inline equations like $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$.  Now I just need to figure out how to change the coloring. -->
 
 
 
