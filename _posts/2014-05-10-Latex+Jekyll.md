@@ -17,3 +17,8 @@ The setup has been pretty painless, even for someone with little prior experienc
 My advice is to start with something simple.  There are some really beautiful [Jekyll themes](https://github.com/ColeTownsend/Balzac-for-Jekyll), but start simple. 
 
 The first thing I needed to figure out how to do is to use [MathJax](http://www.mathjax.org/) to render LaTeX equations.  I will be writing a lot of math and I want it to look good!
+
+\begin{equation}
+\label{EFE}
+G_{\mu \nu} + \Lambda g_{\mu \nu} = \frac{8\pi G}{c^4}T_{\mu \nu}
+\end{equation}
