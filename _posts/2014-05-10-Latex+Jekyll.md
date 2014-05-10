@@ -11,7 +11,8 @@ This is my first website and as a result I am learning something new with every 
 2. It works with [github pages](https://pages.github.com/), so you can host your Jekyll site for free.
 
 The setup has been pretty painless, even for someone with little prior experience with HTML, CSS, or Ruby.  I am familiar with git however, which has been a huge help.  I simply cloned [someone else's code](https://github.com/poole/poole), and began to modify it to my own liking. 
->For those unfamiliar with git, there are many wonderful online [tutorials](https://try.github.io/levels/1/challenges/1).  I have a github account---[capecodcid](https://github.com/capecodcid/) (which I use less than I should).  On my own computer I use a combination of the command line and (gitbox)[http://www.gitboxapp.com/] to manage my repositories.
+
+> For those unfamiliar with git, there are many wonderful online [tutorials](https://try.github.io/levels/1/challenges/1).  I have a github account---[capecodcid](https://github.com/capecodcid/) (which I use less than I should).  On my own computer I use a combination of the command line and [gitbox](http://www.gitboxapp.com/) to manage my repositories.
 
 My advice is to start with something simple.  There are some really beautiful [Jekyll themes](https://github.com/ColeTownsend/Balzac-for-Jekyll), but start simple. 
 
