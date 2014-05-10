@@ -26,10 +26,10 @@ $$
 
 Boom!  I am not sure why things are orange, but at least everything is typesetting correctly.  So what did I have to do to get this to work?  There are two parts.  First, you need to tell your webpage where to find MathJax.  Second, you need to make sure that your markdown parser recognizes that something is LaTeX.  So here was my procedure:
 
-1. I added the following line of code
+1. I added the following line of code to `head.html` in my `_includes` folder.  It could equivalently go in `default.html`.  It just needs to be somewhere it will get run.  This simply instructs the browser to go grab the latest MathJax javascript.
 
 {% highlight html %}
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endhighlight %}
 
-2. I changed the markdown parser to kramdown whic
+2. I changed the markdown parser to `kramdown` which recognizes anything between two sets of `$$` as a LaTeX equation and not regular markdown.
