@@ -21,3 +21,15 @@ The first thing I needed to figure out how to do is to use [MathJax](http://www.
 $$
 G_{\mu \nu} + \Lambda g_{\mu \nu} = \frac{8\pi G}{c^4}T_{\mu \nu}
 $$
+
+> This is the famous Einstein Field Equation, which captures the key idea of General Relativity---local curvature in spacetime is equal to the local momentum and energy in that spacetime.  Matter and energy bend space!
+
+Boom!  I am not sure why things are orange, but at least everything is typesetting correctly.  So what did I have to do to get this to work?  There are two parts.  First, you need to tell your webpage where to find MathJax.  Second, you need to make sure that your markdown parser recognizes that something is LaTeX.  So here was my procedure:
+
+1. I added the following line of code
+
+{% highlight html %}
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endhighlight %}
+
+2. I changed the markdown parser to kramdown whic
