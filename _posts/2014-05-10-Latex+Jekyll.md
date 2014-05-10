@@ -32,7 +32,7 @@ Boom!  I am not sure why things are orange, but at least everything is typesetti
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endhighlight %}
 
-2. I changed the markdown parser to `kramdown` which recognizes anything between two sets of `$$` as a LaTeX equation and not regular markdown.  To do this I first had to install kramdown
+2. I changed the markdown parser to `kramdown` which recognizes anything between two sets of `$$` as a LaTeX equation and not regular markdown.  To do this I first had to install kramdown,
 
 {% highlight ruby %}
 gem install kramdown
@@ -44,4 +44,7 @@ and then I added the following line to my `_config.yml` file.
 markdown:         kramdown
 {% endhighlight %}
 
-Voila!  It works.  It even supports inline equations like $\sum_{x=1:\infty} \frac{1}{x} = 2$.  Not just need to figure out how to change the coloring.
+Voila!  It works.  It even supports inline equations like $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$.  Not just need to figure out how to change the coloring.
+
+
+
