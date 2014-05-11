@@ -46,5 +46,15 @@ markdown:         kramdown
 
 Voila!  It works.  It even supports inline equations like $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$.  Now I just need to figure out how to change the coloring.
 
+###Addendum
+<div class="message">
+  The color problem has been solved!  It turns out that `pygments`---our syntax highlighter for code like the javascript above---and `MathJax` use some of the same `css` classes.  Specifically `.mi` and `.mo`.  To fix this we can simply precede their definitions in `syntax.css` with `.highlight` so those definitions only apply to `pygments`.  If we wanted to create definitions only for `MathJax` we could do something like: 
+</div>
 
+{% highlight css %}
+.MathJax .mi { color: #9684FA }
+{% endhighlight %}
 
+<div class="message">
+  For more see the [github issue](https://github.com/mathjax/MathJax/issues/283) 
+</div>
