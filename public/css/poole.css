@@ -114,9 +114,6 @@ h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
-.MathJax_Display {
-  color: #FFF !important;
-}
 
 /* Body text */
 p {
@@ -126,9 +123,6 @@ p {
 
 strong {
   color: #303030;
-}
-.MathJax_Display {
-  color: #FFF !important;
 }
 
 
@@ -165,9 +159,6 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
-.MathJax_Display {
-  color: #FFF !important;
-}
 /* Code */
 code,
 pre {
@@ -198,9 +189,6 @@ pre code {
   font-size: 100%;
   color: inherit;
   background-color: transparent;
-}
-.MathJax_Display {
-  color: #FFF !important;
 }
 
 /* Pygments via Jekyll */
