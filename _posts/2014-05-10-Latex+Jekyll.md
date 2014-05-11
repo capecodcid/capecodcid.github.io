@@ -41,7 +41,7 @@ gem install kramdown
 and then I added the following line to my `_config.yml` file.
 
 {% highlight Text only %}
-markdown:         kramdown
+markdown:  kramdown
 {% endhighlight %}
 
 Voila!  It works.  It even supports inline equations like $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$.  Now I just need to figure out how to change the coloring.

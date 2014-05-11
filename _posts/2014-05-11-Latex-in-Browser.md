@@ -1,0 +1,99 @@
+---
+layout: post
+title: LaTeX in your Browser
+description: Ecologist, Physicist, and Teacher
+tags: [latex, education, tools, portfolio]
+---
+
+I have been an assistant instructor for many different courses during my studies at Princeton.  There was one course, however, that really taught me a great deal about how to teach.  ISC (integrated science) is _hard_, really really hard.  I was an AI for the lab portion of the class and I was astounded with what the professors expected of their freshman.  Not only did they have to be proficient with a wide range of experimental equipment---spanning physics, chemistry, and biology---they had to be able to do quantitative data analysis in MATLAB, and write journal style reports.  **The students delivered**.  They worked extremely hard, were held to the highest standards, and their work was incredible. They left ISC ready to join a lab and be a valuable researcher.
+
+I carried this new realization of just how much you could expect from freshman to my other courses with similar results.  It was a lot of work for me as an instructor, because high standards requires more feedback---both more iterations of feedback and more depth.  The first time through you have to be willing to work with each student until their work is perfect, a process they can apply to later work.  Many of the freshmen I had in all different courses are now upperclassmen or have graduated.  Whenever I run into any of them, I get the same response---_your course was hard, but it really prepared me for x_.
+
+One small piece of this was writing reports in LaTeX.  They look so much more like a real publication and students are subsequently more proud of their work.  They leave with something portfolio-worthy, which I think is really important. 
+
+
+
+> For those unfamiliar with [LaTeX](latex-project.org), it is a system for high quality typesetting (particularly for scientific or technical reports).  Whenever you see a scientific journal article or even a text book, it was most likely prepared using LaTeX.  To typeset a document you write code which is then compiled into a document.  I will try to write a LaTeX primer in the future.
+
+
+Getting students started using LaTeX is easier than ever today with a variety of in browser options.  Students no longer need to install the compiler or anything else.  They can simply go to a website and work on their projects.  In principle they can collaborate as well, although I have not tried this yet.
+
+> This should work with the chromebooks my students have.  I need to test this.
+
+There seem to be three established options for LaTeX in the browser:
+
+* [WriteLatex](https://www.writelatex.com/)
+* [ShareLatex](https://www.sharelatex.com/)
+* [Authorea](https://www.authorea.com/)
+
+All three are free and fairly straight forward.  I have taken each for a brief test drive and so far my preference is for [ShareLatex](https://www.sharelatex.com/) as it most closely resembles the LaTeX environment I have on my own computer.  All of my own `.tex` files render correctly, even those require journal specific formatting (i.e. revtex).  Additionally, the compilation errors are very clear and helpful.  [ShareLatex](https://www.sharelatex.com/) also has a huge library of templates, allowing students to pick from dozens of journals, CVs, resumes, etc.
+
+Authorea may be a good way to start new students, as it looks less like code and a bit more like a conventional word processor.
+
+> I hope to do a full review of each one in the future.
+
+I encourage you to try them out and leave comments with your favorite!
+
+
+
+
+<!--ShareLa Tex writeLatex authorea
+
+
+I am going to try out all three.
+
+
+I am currently using shareLatex and so far I am very impressed.  They make it very easy to choose between different templates.
+
+Also the compilation errors are very informative and show exactly where they occur in the code.  Errors are much better explained than in TeXShop.
+
+Also cut and paste from my own code rendered very well.   
+
+
+
+
+
+
+This is my first website and as a result I am learning something new with every post.  I am using Jekyll, a static site generator build on ruby, for two reasons.
+
+1. I have heard wonderful things about it.
+2. It works with [github pages](https://pages.github.com/), so you can host your Jekyll site for free.
+
+The setup has been pretty painless, even for someone with little prior experience with HTML, CSS, or Ruby.  I am familiar with git however, which has been a huge help.  I simply cloned [someone else's code](https://github.com/poole/poole), and began to modify it to my own liking. 
+
+> For those unfamiliar with git, there are many wonderful online [tutorials](https://try.github.io/levels/1/challenges/1).  I have a github account---[capecodcid](https://github.com/capecodcid/) (which I use less than I should).  On my own computer I use a combination of the command line and [gitbox](http://www.gitboxapp.com/) to manage my repositories.
+
+My advice is to start with something simple.  There are some really beautiful [Jekyll themes](https://github.com/ColeTownsend/Balzac-for-Jekyll), but start simple. 
+
+The first thing I needed to figure out how to do is to use [MathJax](http://www.mathjax.org/) to render LaTeX equations.  I will be writing a lot of math and I want it to look good!
+
+$$
+G_{\mu \nu} + \Lambda g_{\mu \nu} = \frac{8\pi G}{c^4}T_{\mu \nu}
+$$
+
+> This is the famous Einstein Field Equation, which captures the key idea of General Relativity---local curvature in spacetime is equal to the local momentum and energy in that spacetime.  Matter and energy bend space!
+
+Boom!  I am not sure why things are orange, but at least everything is typesetting correctly.  So what did I have to do to get this to work?  There are two parts.  First, you need to tell your webpage where to find MathJax.  Second, you need to make sure that your markdown parser recognizes that something is LaTeX.  So here was my procedure:
+
+* I added the following line of code to `head.html` in my `_includes` folder.  It could equivalently go in `default.html`.  It just needs to be somewhere it will get run.  This simply instructs the browser to go grab the latest MathJax javascript.
+
+{% highlight html %}
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endhighlight %}
+
+* I changed the markdown parser to `kramdown` which recognizes anything between two sets of `$$` as a LaTeX equation and not regular markdown.  To do this I first had to install kramdown,
+
+{% highlight ruby %}
+gem install kramdown
+{% endhighlight %}
+
+and then I added the following line to my `_config.yml` file.
+
+{% highlight Text only %}
+markdown:         kramdown
+{% endhighlight %}
+
+Voila!  It works.  It even supports inline equations like $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$.  Now I just need to figure out how to change the coloring. -->
+
+
+
