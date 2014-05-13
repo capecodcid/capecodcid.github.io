@@ -29,7 +29,7 @@ It showed that failure rates--defined as D, F, or withdrawing--are 33% lower in 
 To complement the lower failure rates, Freeman et al. also showed that students in the active instruction scored on average 6% higher on the same assessments than there lecture-only peers.  See panel A below. (Image Credit: Freeman et al. PNAS.)
 
 <figure>
-	<img src="{{ site.url }}/post_images/ActiveLearning_score_increase_caption.png" alt="fig1">
+	<img src="{{ site.baseurl }}/post_images/ActiveLearning_score_increase_caption.png" alt="fig1">
 	<figcaption></figcaption>
 </figure>
 
