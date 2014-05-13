@@ -14,7 +14,7 @@ Our last post highlighted a recent metaanalysis of active instruction in STEM co
 In [yesterday's post](), each of the data points in the figures we reprinted was the result of the aggregated results of other studies. (Image Credit: Freeman et al. PNAS.)
 
 <figure>
-	<img src="../post_images/Meta_ActiveLearning.png" alt="fig1">
+	<img src="{{ site.url }}/post_images/Meta_ActiveLearning.png" alt="fig1">
 	<figcaption></figcaption>
 </figure>
 
