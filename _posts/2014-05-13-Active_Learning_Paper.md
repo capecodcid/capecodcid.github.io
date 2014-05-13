@@ -20,7 +20,7 @@ Metaanalysis is growing in popularity now that data is more widely available.  I
 It showed that failure rates--defined as D, F, or withdrawing--are 33% lower in classes with active instruction (21.8% vs 33.8%). (Image Credit: Freeman et al. PNAS.)
 
 <figure>
-	<img src="../post_images/ActiveLearning_failure_rate_caption.png" alt="fig1">
+	<img src="{{ site.url }}/post_images/ActiveLearning_failure_rate_caption.png" alt="fig1">
 	<figcaption></figcaption>
 </figure>
 
