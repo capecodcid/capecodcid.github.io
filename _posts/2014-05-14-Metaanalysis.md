@@ -5,13 +5,13 @@ description: Ecologist, Physicist, and Teacher
 tags: [metaanalysis, prediction, Nate Silver]
 ---
 
-Our last post highlighted a recent metaanalysis of active instruction in STEM courses, which leads the question---_what is metaanalysis?_  For a semi-technical review of the topic see [here](http://en.wikipedia.org/wiki/Meta-analysis).  This post will be much more general.
+Our [last post]({% post_url 2014-05-13-Active_Learning_Paper %}) highlighted a recent metaanalysis of active instruction in STEM courses, which leads the question---_what is metaanalysis?_  For a semi-technical review of the topic see [here](http://en.wikipedia.org/wiki/Meta-analysis).  This post will be much more general.
 
 <div class="message">
 	In essence, metaanalysis is nothing more than research about research.  It is used to describe studies that combine, compare, and summarize several existing studies.
 </div>
 
-In [yesterday's post](), each of the data points in the figures we reprinted was the result of the aggregated results of other studies. (Image Credit: Freeman et al. PNAS.)
+In [yesterday's post]({% post_url 2014-05-13-Active_Learning_Paper %}), each of the data points in the figures we reprinted was the result of the aggregated results of other studies. (Image Credit: Freeman et al. PNAS.)
 
 <figure>
 	<img src="{{ site.url }}/post_images/Meta_ActiveLearning.png" alt="fig1">
