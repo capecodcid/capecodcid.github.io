@@ -14,7 +14,7 @@ The study can be found [here](http://www.pnas.org/content/early/2014/05/08/13190
 The study was a metaanalysis, which means it was a study of the results of other studies (225 in this case).  It looked at cases where a population of students was randomly grouped into one of two subpopulations.  One subpopulation received traditional lecture instruction, while the second subpopulation received at least some active instruction.
 
 <div class="message">
-Metaanalysis is growing in popularity now that data is more widely available.  In theory it has a number of important benefits.  Combining studies means more data and more statistical power.  Additionally, combining studies by different people done under different conditions serves as some insurance against systematic errors.  On the flip-side, publication bias (or the tendency to report positive results and not negative ones) can be a serious problem for metaanalyses. More to come in <a href="{% post_url 2014-05-14-Metaanalysisis %}"> a post on the topic </a>.
+Metaanalysis is growing in popularity now that data is more widely available.  In theory it has a number of important benefits.  Combining studies means more data and more statistical power.  Additionally, combining studies by different people done under different conditions serves as some insurance against systematic errors.  On the flip-side, publication bias (or the tendency to report positive results and not negative ones) can be a serious problem for metaanalyses. More to come in <a href="{{% post_url 2014-05-14-Metaanalysisis %}}"> a post on the topic </a>.
 </div>
 
 It showed that failure rates--defined as D, F, or withdrawing--are 33% lower in classes with active instruction (21.8% vs 33.8%). (Image Credit: Freeman et al. PNAS.)

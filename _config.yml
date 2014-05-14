@@ -9,7 +9,7 @@ permalink:        pretty
 title:            PYW-WYP
 tagline:          Science and Education
 description:      Personal webpage of Andrew Hartnett.
-#url:              http://capecodcid.github.io
+url:              http://capecodcid.github.io
 baseurl:          /
 pages_list:       
   About: '/about'
