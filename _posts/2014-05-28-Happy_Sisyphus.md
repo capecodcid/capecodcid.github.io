@@ -20,14 +20,13 @@ During a particularly difficult couple of months, I was on the phone with a coll
 
 > **_One must imagine Sisyphus happy._**
 
-This is not how he is typically portrayed in art, and not how we would typically think of him and his fate.
+This is not how he is typically portrayed in art, and not how we would typically think of him and his fate.  Camus, however, focuses on Sisyphus as he plods down the hill after the bolder has escaped his grasp and rolled all the way back down to the bottom.  Camus imagines the peace and joy that Sisyphus finds upon accepting the absurdity of _his_ fate.  The key here is that it is _his_ personal fate, and there in lies its purpose.
 
+When discussing the daunting process of writing a dissertation with a friend Mira (who was also writing her thesis), she echoed the same sentiment.  This period of intense hard work is something special and purposeful.  We are writing, not so much for anyone else, but for ourselves.  I am Sisyphus, and in that realization I can be happy. 
 
-> I want to bring in conversation with Mira - this is somthing I am doing for me 
+So I repeat again Camus' words:
 
-So I repeat again:
-
-> **_The struggle itself towards the heights is enough to fill a man's heart.  One must imagine Sisyphus happy._**
+> I leave Sisyphus at the foot of the mountain!  One always finds one's burden again.  But Sisyphus teaches the higher fidelity that negates the gods and raises rocks.  He too concludes that all is well.  This universe henceforth without a master seems to him neither sterile nor futile.  Each atom of that stone, each mineral flake of that night filled mountain, in itself forms a world. **_The struggle itself towards the heights is enough to fill a man's heart.  One must imagine Sisyphus happy._**
 
 ![Sisyphus]({{ site.url }}/post_images/sisyphus.jpg)
 
