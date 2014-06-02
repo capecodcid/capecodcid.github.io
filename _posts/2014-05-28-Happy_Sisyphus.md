@@ -20,9 +20,9 @@ During a particularly difficult couple of months, I was on the phone with a coll
 
 > **_One must imagine Sisyphus happy._**
 
-This is not how he is typically portrayed in art, and not how we would typically think of him and his fate.  Camus, however, focuses on Sisyphus as he plods down the hill after the bolder has escaped his grasp and rolled all the way back down to the bottom.  Camus imagines the peace and joy that Sisyphus finds upon accepting the absurdity of _his_ fate.  The key here is that it is _his_ personal fate, and there in lies its purpose.
+This is not how he is typically portrayed in art, and not how we would typically think of him and his fate.  Camus, however, focuses on Sisyphus as he plods down the hill after the bolder has escaped his grasp and rolled all the way back down to the bottom.  Camus imagines the peace and joy that Sisyphus finds upon accepting the absurdity of _his_ fate.  The key here is that it is _his_ personal fate, and therein lies its purpose.
 
-When discussing the daunting process of writing a dissertation with a friend Mira (who was also writing her thesis), she echoed the same sentiment.  This period of intense hard work is something special and purposeful.  We are writing, not so much for anyone else, but for ourselves.  I am Sisyphus, and in that realization I can be happy. 
+When discussing the daunting process of writing a dissertation with a friend Mira (who was also writing her thesis), she echoed the same sentiment.  This period of intense hard work is something special and purposeful.  We are writing, not so much for anyone else, but for ourselves.  I am Sisyphus, and in that realization I am happy. 
 
 So I repeat again Camus' words:
 
