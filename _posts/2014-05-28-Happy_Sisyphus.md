@@ -5,7 +5,10 @@ description: Ecologist, Physicist, and Teacher
 tags: [education, scholars, thesis]
 ---
 
-> This post is for me.  It is one thing to remind oneself to have perspective, it is another to truly reflect and write on the matter.
+<div class="message">
+	This post is for me.  It is one thing to remind oneself to have perspective, it is another to truly reflect and write on the matter.
+</div>
+
 
 There are many arguments both for and against the Ph.D. as an educational institution.  General argument, however, gain little traction as Ph.D. experiences are as diverse as the scholars who pursue them.  Some follow very well-defined paths, others wander.  My experience has been the latter, as I have tried to marry the disciplines of statistical physics and collective animal behavior.  I use the term marry here, because I am not trying to do physics that just happens to be about animal groups, or just study animal groups employing a few tools from physics.  The goal is broader, to think about problems and solutions that truly have significant interest to both fields and represent an advancement in both communities.  This means considering systems that are complex enough to be behaviorally intriguing and methods of experiment and analysis that are quantitatively rigorous.
 
@@ -17,11 +20,18 @@ During a particularly difficult couple of months, I was on the phone with a coll
 
 > **_One must imagine Sisyphus happy._**
 
-This is not how he is typically portrayed in art. (Sketch by Matt Buck)
+This is not how he is typically portrayed in art, and not how we would typically think of him and his fate.
+
+
+> I want to bring in conversation with Mira - this is somthing I am doing for me 
+
+So I repeat again:
+
+> **_The struggle itself towards the heights is enough to fill a man's heart.  One must imagine Sisyphus happy._**
 
 ![Sisyphus]({{ site.url }}/post_images/sisyphus.jpg)
 
-
+(Sketch by Matt Buck)
 
 ### References
 
