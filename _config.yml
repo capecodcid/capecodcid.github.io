@@ -23,9 +23,9 @@ links:
     url: /contact
   - title: Archive
     url: /archive
-  - title: Couzin Lab
-    url: http://icouzin.princeton.edu/
-    external: true
+  # - title: Couzin Lab
+  #   url: http://icouzin.princeton.edu/
+  #   external: true
 
 
 author:
